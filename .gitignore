@@ -1,0 +1,47 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# Training data, outputs, and downloaded/exported model artifacts
+datasets/
+runs/
+outputs/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Vendored upstream YOLO/Ultralytics source and copied upstream material
+ultralytics/
+ultralytics.egg-info/
+docker/
+docs/
+examples/
+images/
+tests/
+pyproject.toml
+mkdocs.yml
+CITATION.cff
+CONTRIBUTING.md
+LICENSE
+
+# Native extension build outputs
+build/
+dist/
+*.egg-info/
+*.obj
+*.lib
+*.exp
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Personal documents and unrelated local working files
+resume_work/
+求职简历-李亿博-北京史河机器人项目版.docx
