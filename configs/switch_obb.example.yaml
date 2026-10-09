@@ -1,0 +1,8 @@
+# Set this root to your own dataset directory before training.
+path: datasets/switch
+train: train/images
+val: val/images
+test: test/images
+names:
+  0: switch_handle
+  1: angle

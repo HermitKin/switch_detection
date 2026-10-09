@@ -45,3 +45,17 @@ Thumbs.db
 # Personal documents and unrelated local working files
 resume_work/
 求职简历-李亿博-北京史河机器人项目版.docx
+
+# Locally generated handoff archives (the reviewed source folder remains trackable)
+/switch_detection_handoff_*.zip
+/switch_orientation_demo_handoff_*.zip
+/switch_detection_complete_handoff_*.zip
+
+# Local delivery copies, archives, and private experiment helpers
+/handoff_release/
+/switch_orientation_demo_handoff/
+/switch_detection_complete_handoff/
+/交接/
+/项目交接说明.md
+*.zip
+/models/
